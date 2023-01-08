@@ -1,0 +1,10 @@
+# 연습문제
+
+#1. 평균구하기 
+scores=[['국어',80],['영어',75],['수학',55]]
+print(len(scores))
+hap=0
+for i in range(len(scores)):
+    hap+=scores[i][1]
+print(hap)
+print(hap/len(scores))
